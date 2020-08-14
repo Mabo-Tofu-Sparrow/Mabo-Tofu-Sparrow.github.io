@@ -19,6 +19,8 @@ header {
 }
 .main1 {
     background: url(https://Mabo-Tofu-Sparrow.github.io/img/background1.png);
+}
+img {
     background-size: cover;
     padding-top: 150px;
 }
