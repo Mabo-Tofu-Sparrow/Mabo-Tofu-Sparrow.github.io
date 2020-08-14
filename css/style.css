@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    width: 100%;
+    background-color: rgba(0,0,0,0.3);
+    position: fixed;
+}
+.logo {
+    padding: 10px 30px;
+    color: white;
+    text-align: left;
+    font-size: 80px;
+}
+.main {
+    width: 80%;
+    margin: 0 auto;
+}
+.main1 {
+    background: url(https://Mabo-Tofu-Sparrow.github.io/img/background1.png);
+    background-size: cover;
+    padding-top: 150px;
+}
+.main1 img {
+    float: right;
+    border-radius: 100px;
+}
+h2 {
+    padding-left: 30px;
+    font-size: 50px;
+}
+.card ul{
+    font-size: 20px;
+}
+.main2 {
+    background: url(https://Mabo-Tofu-Sparrow.github.io/img/background2.png);
+}
+@media(min-width: 1501px){
+    .main1 {
+        height: 750px;
+    }
+}
+@media(max-width: 1500px){
+    .card img {
+        width: 100%;
+    }
+}
