@@ -36,8 +36,6 @@ h2 {
 }
 .main2 {
     background: url(https://Mabo-Tofu-Sparrow.github.io/img/background2.png);
-    background-size: cover;
-    padding-top: 150px;
 }
 @media(min-width: 1501px){
     .main1 {
