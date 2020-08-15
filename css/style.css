@@ -1,70 +1,49 @@
-* {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-}
-header {
-    width: 100%;
-    background-color: rgba(0,0,0,0.3);
-    position: fixed;
-}
-.logo {
-    padding: 10px 30px;
-    color: white;
-    text-align: left;
-    font-size: 80px;
-}
-ul,p {
-    background-color: rgba(255,255,255,0.5);
-    display: inline-block;
-}
-.main {
-    width: 80%;
-    margin: 0 auto;
-}
-.main1 {
-    background: url(https://Mabo-Tofu-Sparrow.github.io/img/background1.png);
-    background-size: cover;
-    padding-top: 150px;
-}
-.main1 img {
-    float: right;
-    border-radius: 100px;
-}
-h2 {
-    padding-left: 30px;
-    font-size: 50px;
-}
-.card ul{
-    font-size: 20px;
-}
-.main2 {
-    height: 1000px;
-    background: url(https://Mabo-Tofu-Sparrow.github.io/img/background2.png);
-    background-size: cover;
-    padding-top: 150px;
-}
-.btn:hover {
-    opacity: 1;
-    transition: all 0.5s;
-}
-.twitter {
-    background-color: #55acee;
-}
-.btn {
-    padding: 8px 24px;
-    color: white;
-    display: inline-block;
-    opacity: 0.8;
-    border-radius: 4px;
-}
-@media(min-width: 1501px){
-    .main1 {
-        height: 750px;
-    }
-}
-@media(max-width: 1500px){
-    .card img {
-        width: 100%;
-    }
-}
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>自己紹介</title>
+    <link href="css/style.css" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="img/icon.png">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <h1 class="logo">自己紹介</h1>
+    </header>
+    <div class="main">
+        <div class="main1">
+            <img src="img/icon.png" />
+            <h2>麻婆豆腐雀</h2>
+            <ul>
+                <li>性別　男性</li>
+                <li>年齢　高校生</li>
+                <li>好きなこと　ゲーム、麻雀(リアル、雀魂)、PC</li>
+                <li>好きな役　役満</li>
+                <li>特徴　狂人</li>
+            </ul>
+        </div>
+        <div class="main2">
+            <h2>～コメント～</h2>
+            <p>麻雀の妖精です(適当)</p><br />
+            <p>最初は役満にハマっていました</p><br />
+            <p>上がった役は</p><br /><br />
+            <ul>
+                <li>大三元　7回(三麻)</li>
+                <li>四暗刻　17回(三麻) 1回(四麻)</li>
+                <li>字一色　13回(三麻)</li>
+                <li>緑一色　5回(三麻)</li>
+                <li>清老頭　5回(三麻)</li>
+                <li>国士無双　27回(三麻) 2回(四麻)</li>
+                <li>小四喜　3回(三麻) 1回(四麻)</li>
+                <li>四暗刻単騎　1回(三麻)</li>
+                <li>国士無双十三面待ち　4回(三麻)</li>
+            </ul>
+            <br /><p>最近はアヴァベルがマイブームです</p><br />
+            <p>このサイトは自力で書きました</p>
+            <br /><br /><br />
+            <a href="https://twitter.com/MaboTofuSparrow" class="btn twitter"><span class="fa fa-twitter"></span>Twitter</a>
+        </div>
+    </div>
+</body>
+</html>
